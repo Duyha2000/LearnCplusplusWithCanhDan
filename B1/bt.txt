@@ -1,0 +1,95 @@
+https://docs.google.com/document/d/1n4n52y7RjgHDgp8qLMpNg1Fqi0CQp2zodFrFjWFNrOk/edit?tab=t.0
+
+
+  // Toán tử so sánh: > < >= <= ==
+  // 1 dấu = là phép gán, không dùng trong so sánh if else vì sẽ báo lỗi
+  // ! khác
+  int x = 6;
+  int y = 5;
+  if (x != y) { // using the result of an assignment as a condition without
+                // parentheses (ccls)
+    cout << "2 số này không bằng nhau";
+  } else {
+    cout << "2 số này khác nhau";
+  }
+  // Toán tử logic:
+  // Anh cao 1m7
+  // Em cao 1m9
+  // Hùng cao 1m85
+  // Cả anh 'và' -> && em  'và' Hùng cao trên 1m8 -> tất cả điều kiện đều đúng
+  // thì mới thỏa mãn
+
+  // Anh 'hoặc ' em 'hoặc' Hùng cao trên 1m8 -> chỉ cần 1 trong những điều kiện
+  // thỏa mãn thì điều kiện đấy đúng
+  double heightA = 1.7;
+  double heightB = 1.9;
+  double heightC = 1.85;
+  if (heightA > 1.8 || heightB > 1.8 || heightC > 1.8) {
+    cout << "  anh  hoặc em cao hơn 1m8";
+  } else {
+    cout << "K thỏa mãn";
+  }
+  // Condition: if - else
+  // Nhập vào 1 số và kiểm tra số đó có > 0 hay không, nếu >0 in ra số này lớn
+  // hơn 0, còn nếu không thì in ra nhỏ hơn:
+  // int a;
+  // cin >> a;
+  // if(condition){
+  //} else{}
+  // if (a > 0) {
+  // cout << ">0";
+  //} else {
+  // cout << "<0";
+  // }
+  // Nếu trời mưa, bọn tôi sẽ ở nhà, nếu không thì ra ngoài đường đi chơi
+  /*
+  int person1;
+  cin >> person1;
+  int person2;
+  cin >> person2;
+  int person1, person2;
+  cin >> person1 >> person2;
+  if (person1 > person2) {
+    cout << "person1 salaries is higher than person2";
+  } else {
+    cout << "person2 salaries is higher than person1";
+  }
+  // Nhập vào 1 số và kiểm tra số đó có chia hết cho 3 hay không, nếu có thì in
+  // ra chia hết, nếu không thì in ra k chia hết:
+  int a;
+  cin >> a;
+  if (a % 3 == 0) {
+    cout << "a chia het cho 3";
+  } else {
+    cout << " a khong chbia het cho 3";
+  }
+  int a;
+  cin >> a;
+  if (a % 2 == 0) {
+    cout << "a la so chan";
+  } else {
+    cout << "a la so le";
+  }
+  ! : phủ định
+  in chuỗi trong C++ là kiểu string, "..."
+  int a;
+  cin >> a;
+  if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0) {
+    cout << "Year " << a << " a is a leap year!";
+  } else {
+    cout << "Year a is not a leap year!";
+  }
+  */
+  int a;
+  cin >> a;
+  if (a <= 50) {
+    cout << "hoc sinh weak";
+  } else if (a <= 60) {
+    cout << "hoc sinh average";
+  } else if (a <= 75) {
+    cout << "hoc sinh good";
+  } else if (a <= 90) {
+    cout << "hoc sinh very good";
+  } else {
+    cout << " hoc sinhn gioi";
+  }

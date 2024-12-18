@@ -1,0 +1,109 @@
+ // input - output: nhập thông tin vào màn hình
+    // cinput - coutput:
+    cout << "Hello, World!";
+    // Lập trình hướng đối tượng OOP
+    // condition, loops(while, for, do-while), array, function,pointer, struct, enum
+    // C: lập trình nhúng:
+    // kết thúc chương trình:
+    // Biến và kiểu dữ liệu:
+
+    // Bài toán tính chu vi tam giác -> độ dài cạnh 1 , độ dài cạnh 2, độ dài cạnh 3
+
+    // độ dài cạnh 1 + độ dài cạnh 2 + độ dài cạnh 3 = chu vi
+    // Biến: mục đích để lưu trữ giá trị:
+    // x = 5 , y =7, z =9
+    // Kiểu dữ liệu: mục đích để lưu trữ kiểu giá trị tương ứng của biến:
+    // x = 5;
+    // Kiểu số nguyên: integer (int): 5 , 6 ,7 , 8,9 -> 4 byte
+    // Kiểu số thực: double* / float: 5.5, 6.6, 7.7, 8.8, 9.9 -> 8 byte , 4 byte
+    // 2.333333333333(3333333)
+    // Kiểu ký tự: character (char): 'a' , 'b' ,'c','d','e' -> 1 byte
+    // Kiểu String: chuỗi ký tự: "abcd"
+    // Kiểu boolean: true, false
+    // RAM: Random Access Memory: 8GB -> 8*1024*1024*1024 byte
+    // - - - - - - - - - - - - - - - - - - - -> 8 triệu ô, mỗi ô nhớ tương ứng 1 byte
+
+    // 1. Khai báo biến: data type variable_name = value;
+    /*
+    int a = 5; // độ dài cạnh thứ nhất:
+    int b = 7; // độ dài cạnh thứ hai:
+    int c = 9; // độ dài cạnh thứ ba:
+    int p = a + b + c;
+    cout << p;
+    */
+    // Khởi tạo 2 biến chiều dài, rộng = 9 và 5 -> và tính chu vi, diện tích hình chữ nhật:
+
+    int a = 9;
+    int b = 5;
+    int p = (a + b) * 2; // Tính chu vi hình chữ nhật
+    int d = a * b;
+    /*
+    int e = 0;
+    int f = 0;
+    cout << e / f;
+    */
+    cout << p << endl; // end line
+    cout << d;
+
+    // cout << p << endl << d << 8 << 9;
+    // Chú thích: comment:
+    // Chú thích 1 dòng và nhiều dòng:
+    /*
+    Chú thích nhiều dòng
+    Dòng 1
+    Dòng 2
+    */
+     // Input - output trong C++
+  // int a; // Giá trị mặc định của biến int khi khai báo là 0
+  // double b;
+
+  // cout << b; // 0.0
+  // string c;
+  // cout << c; // ""
+  // Input: nhập vào giá trị:
+  // cin >> a;
+  // cout << a;
+  // Input: radius -> in ra dien tich hinh tron (PI * r * r)
+
+  // int r;
+  // cin >> r;
+  // cout << 3.14 * r * r;
+  // Toán tử số học trong C++:
+  // + - * [/ % ] (chia lấy dư)
+  // int a = 5;
+  // int b = 3;
+  // cout << a + b; // 8
+  //  5 : 3 = 1.66667 -> phần nguyên là 1 -> 5 - 1 *3 = 2
+  //  17 : 3 = 5.67 -> phần nguyên là 5 -> 17 - 5 * 3 = 2
+  //  / là chia lấy phần nguyên
+  //  cout << a / b; // 1
+  //  cout << a % b; // 2
+  /*
+  Bài 1: Khai báo các biến sau trong C++:
+  int i1 = 2, i2 = 5, i3 = -3;
+  double d1 = 2.0, d2 = 5.0, d3 = -0.5;
+
+  Thực hiện và giải thích kết quả của các biểu thức sau:
+  i1 + (i2 * i3) = -13
+  i1 * (i2 + i3) = 4
+  i1 / (i2 + i3) (Lưu ý phép chia số nguyên) = 1
+  i1 / i2 + i3 (Lưu ý phép chia số nguyên) = -3
+  3 + 4 + 5 / 3 (Lưu ý thứ tự ưu tiên) = 8
+  (3 + 4 + 5) / 3 = 4
+  d1 + (d2 * d3) = -0.5
+  d1 / d2 - d3 = 0.9
+  d1 / (d2 - d3) = 0.3636..
+  d1 + d2 + d3 / 3 =  6.833 ...
+  */
+  // Toán tử 1 ngôi:
+  // int a = 2;
+  // int b = 3;
+  // int p = a + b;
+  // Toán tử 1 ngôi: a++ a-- a+=1 a-=1 a*=2 a/=2
+  // Tăng giá trị biến a lên 2 đơn vị:
+  // a += 2; // a = 4
+  // a *= 2; // a = 8
+  //  a = a *2; = 4 * 2 = 8
+  // cout << a; // 4
+  // a++; // a++++
+  // a--; // Trừ đi 1 đơn vị
